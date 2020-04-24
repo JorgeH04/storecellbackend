@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'views')));
 
 
 //routes '/api/post', 
-app.use(require('./routes/index'));
+app.use('/api/post', require('./routes/index'));
 
 
 
